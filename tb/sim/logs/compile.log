@@ -1,0 +1,82 @@
+QuestaSim-64 vmap 2021.2_1 Lib Mapping Utility 2021.05 May 15 2021
+vmap work work 
+QuestaSim-64 vmap 2021.2_1 Lib Mapping Utility 2021.05 May 15 2021
+vmap work work 
+Copying /home/user/Downloads/questasim/linux_x86_64/../modelsim.ini to modelsim.ini
+Copying /home/user/Downloads/questasim/linux_x86_64/../modelsim.ini to modelsim.ini
+Modifying modelsim.ini
+Modifying modelsim.ini
+QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+Start time: 06:03:15 on May 11,2026
+Start time: 06:03:15 on May 11,2026
+vlog -sv -cover bcest -work work ../../rtl/design.sv ../top/testbench.sv "+acc" "+define+QUESTA" "+incdir+../../rtl" "+incdir+../top" 
+vlog -sv -cover bcest -work work ../../rtl/design.sv ../top/testbench.sv "+acc" "+define+QUESTA" "+incdir+../../rtl" "+incdir+../top" 
+-- Compiling module cfs_synch
+-- Compiling module cfs_synch
+-- Compiling module cfs_synch_fifo
+-- Compiling module cfs_synch_fifo
+-- Compiling module cfs_rx_ctrl
+-- Compiling module cfs_rx_ctrl
+-- Compiling module cfs_ctrl
+-- Compiling module cfs_ctrl
+-- Compiling module cfs_tx_ctrl
+-- Compiling module cfs_tx_ctrl
+-- Compiling module cfs_edge_detect
+-- Compiling module cfs_edge_detect
+-- Compiling module cfs_regs
+-- Compiling module cfs_regs
+-- Compiling module cfs_aligner_core
+-- Compiling module cfs_aligner_core
+-- Compiling module cfs_aligner
+-- Compiling module cfs_aligner
+** Note: (vlog-2286) ../test/cfs_algn_test_pkg.sv(10): Using implicit +incdir+/home/user/Downloads/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+** Note: (vlog-2286) ../test/cfs_algn_test_pkg.sv(10): Using implicit +incdir+/home/user/Downloads/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Compiling package uvm_ext_pkg
+-- Compiling package uvm_ext_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Compiling interface cfs_apb_if
+-- Compiling interface cfs_apb_if
+-- Compiling package cfs_apb_pkg
+-- Compiling package cfs_apb_pkg
+-- Importing package uvm_ext_pkg
+-- Importing package uvm_ext_pkg
+-- Compiling interface cfs_md_if
+-- Compiling interface cfs_md_if
+-- Compiling package cfs_md_pkg
+-- Compiling package cfs_md_pkg
+-- Compiling package cfs_algn_reg_pkg
+-- Compiling package cfs_algn_reg_pkg
+-- Compiling interface cfs_algn_if
+-- Compiling interface cfs_algn_if
+-- Compiling package cfs_algn_pkg
+-- Compiling package cfs_algn_pkg
+-- Importing package cfs_apb_pkg
+-- Importing package cfs_apb_pkg
+-- Importing package cfs_md_pkg
+-- Importing package cfs_md_pkg
+-- Importing package cfs_algn_reg_pkg
+-- Importing package cfs_algn_reg_pkg
+-- Compiling package cfs_algn_test_pkg
+-- Compiling package cfs_algn_test_pkg
+-- Importing package cfs_algn_pkg
+-- Importing package cfs_algn_pkg
+-- Compiling module testbench
+-- Compiling module testbench
+-- Importing package cfs_algn_test_pkg
+-- Importing package cfs_algn_test_pkg
+
+Top level modules:
+	testbench
+
+Top level modules:
+	testbench
+End time: 06:03:15 on May 11,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+End time: 06:03:15 on May 11,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+[INFO] Compilation Completed
+
+make[2]: Leaving directory '/home/user/Documents/aligner_repo-main-1/aligner_repo-main/tb/sim'

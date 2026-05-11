@@ -1,0 +1,674 @@
+make[2]: Entering directory '/home/user/Documents/aligner_repo-main-1/aligner_repo-main/tb/sim'
+=================================================
+[INFO] Running TESTNAME=cfs_algn_apb_tests_3_1_1
+=================================================
+Reading pref.tcl
+
+# 2021.2_1
+
+# vsim -coverage -c work.testbench "+UVM_TESTNAME=cfs_algn_apb_tests_3_1_1" "+sv_seed=20441379" "+UVM_MAX_QUIT_COUNT=1" "+access+rw" -f messages.f -do "do ../../tb/sim/toggle_exclude.do; coverage save -onexit ucdb/cfs_algn_apb_tests_3_1_1.ucdb; run -all; quit;" 
+# Start time: 06:03:40 on May 11,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 2021.2_1 linux_x86_64 May 15 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.cfs_algn_if(fast)
+# Loading work.cfs_apb_if(fast)
+# Loading work.cfs_md_if(fast)
+# Loading mtiUvm.uvm_pkg(fast)
+# Loading work.cfs_algn_reg_pkg(fast)
+# Loading work.uvm_ext_pkg(fast)
+# Loading work.cfs_md_pkg(fast)
+# Loading work.cfs_apb_pkg(fast)
+# Loading work.cfs_algn_pkg(fast)
+# Loading work.cfs_algn_test_pkg(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.testbench(fast)
+# Loading work.cfs_apb_if(fast__2)
+# Loading work.cfs_md_if(fast__2)
+# Loading work.cfs_algn_if(fast__2)
+# Loading work.cfs_aligner(fast)
+# Loading work.cfs_aligner_core(fast)
+# Loading work.cfs_rx_ctrl(fast)
+# Loading work.cfs_synch(fast)
+# Loading work.cfs_synch_fifo(fast)
+# Loading work.cfs_tx_ctrl(fast)
+# Loading work.cfs_ctrl(fast)
+# Loading work.cfs_regs(fast)
+# Loading work.cfs_edge_detect(fast)
+# Loading work.cfs_edge_detect(fast__1)
+# Loading /home/user/Downloads/questasim/uvm-1.1d/linux_x86_64/uvm_dpi.so
+# do ../../tb/sim/toggle_exclude.do
+# ** Warning: -comment options is supported in post simulation viewcov mode only, ignoring it.
+# ** Warning: -comment options is supported in post simulation viewcov mode only, ignoring it.
+# ** Warning: -comment options is supported in post simulation viewcov mode only, ignoring it.
+# ** Warning: -comment options is supported in post simulation viewcov mode only, ignoring it.
+# ** Warning: -comment options is supported in post simulation viewcov mode only, ignoring it.
+#  coverage save -onexit ucdb/cfs_algn_apb_tests_3_1_1.ucdb
+#  run -all
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(277) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(278) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test cfs_algn_apb_tests_3_1_1...
+# UVM_INFO @ 0: reporter [MAXQUITSET] '+UVM_MAX_QUIT_COUNT=1' provided on the command line is being applied.
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'length_eq_2' in Coverpoint 'length' of Covergroup instance '\/cfs_apb_pkg::cfs_apb_coverage::cover_item ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 7  Region: /uvm_pkg::uvm_phase::m_run_phases
+# ** Warning: (vsim-8547) After dropping the illegal, ignore or invalid values, the values list associated with fixed-size array sub bin 'length_le_10[1]' in Coverpoint 'length' of Covergroup instance '\/cfs_apb_pkg::cfs_apb_coverage::cover_item ' has converged to empty list. The sub bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 7  Region: /uvm_pkg::uvm_phase::m_run_phases
+# ** Warning: (vsim-8547) After dropping the illegal, ignore or invalid values, the values list associated with fixed-size array sub bin 'length_le_10[2]' in Coverpoint 'length' of Covergroup instance '\/cfs_apb_pkg::cfs_apb_coverage::cover_item ' has converged to empty list. The sub bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 7  Region: /uvm_pkg::uvm_phase::m_run_phases
+# ** Warning: (vsim-8547) After dropping the illegal, ignore or invalid values, the values list associated with fixed-size array sub bin 'length_le_10[3]' in Coverpoint 'length' of Covergroup instance '\/cfs_apb_pkg::cfs_apb_coverage::cover_item ' has converged to empty list. The sub bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 7  Region: /uvm_pkg::uvm_phase::m_run_phases
+# ** Warning: (vsim-8547) After dropping the illegal, ignore or invalid values, the values list associated with fixed-size array sub bin 'length_le_10[4]' in Coverpoint 'length' of Covergroup instance '\/cfs_apb_pkg::cfs_apb_coverage::cover_item ' has converged to empty list. The sub bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 7  Region: /uvm_pkg::uvm_phase::m_run_phases
+# ** Warning: (vsim-8547) After dropping the illegal, ignore or invalid values, the values list associated with fixed-size array sub bin 'length_le_10[5]' in Coverpoint 'length' of Covergroup instance '\/cfs_apb_pkg::cfs_apb_coverage::cover_item ' has converged to empty list. The sub bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 7  Region: /uvm_pkg::uvm_phase::m_run_phases
+# ** Warning: (vsim-8547) After dropping the illegal, ignore or invalid values, the values list associated with fixed-size array sub bin 'length_le_10[6]' in Coverpoint 'length' of Covergroup instance '\/cfs_apb_pkg::cfs_apb_coverage::cover_item ' has converged to empty list. The sub bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 7  Region: /uvm_pkg::uvm_phase::m_run_phases
+# ** Warning: (vsim-8547) After dropping the illegal, ignore or invalid values, the values list associated with fixed-size array sub bin 'length_le_10[7]' in Coverpoint 'length' of Covergroup instance '\/cfs_apb_pkg::cfs_apb_coverage::cover_item ' has converged to empty list. The sub bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 7  Region: /uvm_pkg::uvm_phase::m_run_phases
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'length_gt_10' in Coverpoint 'length' of Covergroup instance '\/cfs_apb_pkg::cfs_apb_coverage::cover_item ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 7  Region: /uvm_pkg::uvm_phase::m_run_phases
+# ** Warning: (vsim-12051) Illegal assignment in cast to class work.cfs_md_pkg::cfs_md_sequencer_base_master from class work.uvm_ext_pkg::uvm_ext_sequencer #(class work.cfs_md_pkg::cfs_md_item_drv_master)
+#    Time: 0 ns  Iteration: 32  Process: /uvm_pkg::uvm_phase::m_run_phases/#FORK#1847_7fefe44bd36 File: ../env/cfs_algn_env.sv Line: 129
+# ** Warning: (vsim-12051) Illegal assignment in cast to class work.cfs_md_pkg::cfs_md_sequencer_base_slave from class work.uvm_ext_pkg::uvm_ext_sequencer #(class work.cfs_md_pkg::cfs_md_item_drv_slave)
+#    Time: 0 ns  Iteration: 32  Process: /uvm_pkg::uvm_phase::m_run_phases/#FORK#1847_7fefe44bd36 File: ../env/cfs_algn_env.sv Line: 130
+# UVM_INFO verilog_src/uvm-1.1d/src/reg/uvm_reg_predictor.svh(218) @ 175: uvm_test_top.env.predictor [REG_PREDICT] Observed WRITE transaction to register reg_block.IRQEN: value='h10 : updated value = 'h10
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 736: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 1 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 745: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [736..745] data: {'hf0, 'h76}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 70
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 816: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 2 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 825: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [816..825] data: {'h41, 'hab, 'h6c}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 7
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 856: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 3 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 865: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [856..865] data: {'h71, 'h6f, 'he5}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 3
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 916: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 4 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 925: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [916..925] data: {'ha3, 'h11, 'ha8}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 5
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 976: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 5 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 985: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [976..985] data: {'h1e, 'had}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 5
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 1066: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 6 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 1075: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [1066..1075] data: {'h2d, 'h12, 'h14}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 8
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 1116: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 7 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 1125: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [1116..1125] data: {'hf1, 'hac}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 4
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 1146: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 8 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 1155: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [1146..1155] data: {'h71, 'h2d}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 2
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 1196: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 9 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 1205: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [1196..1205] data: {'h5f, 'h46, 'h36}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 4
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 1276: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 10 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 1285: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [1276..1285] data: {'ha3, 'h9f}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 7
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 1356: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 11 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 1365: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [1356..1365] data: {'h4f, 'h21, 'hff}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 7
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 1466: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 12 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 1475: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [1466..1475] data: {'h9a, 'h9d, 'h1a}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 10
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 1536: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 13 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 1545: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [1536..1545] data: {'h2c, 'hd1, 'h9e}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 6
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 1566: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 14 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 1575: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [1566..1575] data: {'hf9, 'h1e, 'h45}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 2
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 1636: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 15 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 1645: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [1636..1645] data: {'hd2, 'h82, 'h2f}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 6
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 1696: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 16 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 1705: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [1696..1705] data: {'hd2, 'hf5, 'h42}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 5
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 1756: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 17 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 1765: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [1756..1765] data: {'h82, 'hb0}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 5
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 1836: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 18 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 1845: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [1836..1845] data: {'h6d, 'he0, 'h04}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 7
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 1896: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 19 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 1905: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [1896..1905] data: {'hf1, 'h95, 'ha9}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 5
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 1926: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 20 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 1935: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [1926..1935] data: {'hc6, 'hfe, 'hb8}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 2
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 1976: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 21 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 1985: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [1976..1985] data: {'h0e, 'h24}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 4
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 2056: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 22 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 2065: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [2056..2065] data: {'h14, 'h37, 'h4e}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 7
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 2076: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 23 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 2085: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [2076..2085] data: {'ha1, 'h40}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 1
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 2166: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 24 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 2175: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [2166..2175] data: {'h55, 'h1b, 'he6}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 8
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 2276: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 25 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 2285: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [2276..2285] data: {'h28, 'hc9, 'hbb}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 10
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 2326: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 26 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 2335: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [2326..2335] data: {'h65, 'h8a}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 4
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 2336: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 27 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 2345: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [2336..2345] data: {'h61, 'hbd, 'hf3}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 0
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 2396: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 28 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 2405: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [2396..2405] data: {'h1f, 'hd1}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 5
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 2426: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 29 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 2435: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [2426..2435] data: {'hef, 'hdc, 'hb1}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 2
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 2496: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 30 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 2505: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [2496..2505] data: {'h97, 'haf, 'h9a}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 6
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 2526: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 31 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 2535: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [2526..2535] data: {'h06, 'hd3, 'h91}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 2
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 2626: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 32 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 2635: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [2626..2635] data: {'h9e, 'he4, 'h85}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 9
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 2696: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 33 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 2705: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [2696..2705] data: {'h07, 'hff, 'h75}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 6
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 2756: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 34 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 2765: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [2756..2765] data: {'h5e, 'h43, 'h06}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 5
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 2826: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 35 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 2835: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [2826..2835] data: {'h4c, 'hc8, 'h73}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 6
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 2876: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 36 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 2885: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [2876..2885] data: {'ha2, 'hf7, 'h74}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 4
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 2956: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 37 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 2965: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [2956..2965] data: {'hf3, 'h23, 'h05}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 7
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 3016: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 38 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 3025: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [3016..3025] data: {'h75, 'hbd}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 5
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 3036: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 39 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 3045: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [3036..3045] data: {'h99, 'h30}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 1
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 3096: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 40 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 3105: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [3096..3105] data: {'heb, 'h04, 'hb1}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 5
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 3146: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 41 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 3155: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [3146..3155] data: {'h0a, 'hb4}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 4
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 3196: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 42 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 3205: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [3196..3205] data: {'h2a, 'h7f, 'h44}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 4
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 3226: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 43 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 3235: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [3226..3235] data: {'h1a, 'h7c}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 2
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 3286: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 44 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 3295: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [3286..3295] data: {'ha4, 'ha0, 'h8b}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 5
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 3326: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 45 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 3335: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [3326..3335] data: {'h85, 'h78, 'h2a}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 3
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 3346: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 46 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 3355: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [3346..3355] data: {'h9d, 'h71}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 1
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 3386: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 47 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 3395: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [3386..3395] data: {'h4a, 'h04, 'h96}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 3
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 3476: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 48 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 3485: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [3476..3485] data: {'hcb, 'h24}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 8
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 3516: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 49 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 3525: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [3516..3525] data: {'h9a, 'h36, 'h14}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 3
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 3586: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 50 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 3595: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [3586..3595] data: {'h20, 'hf5, 'h01}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 6
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 3636: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 51 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 3645: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [3636..3645] data: {'h6a, 'h1b, 'hbc}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 4
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 3666: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 52 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 3675: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [3666..3675] data: {'hc6, 'h33, 'hb6}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 2
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 3716: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 53 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 3725: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [3716..3725] data: {'h80, 'h8e, 'hd1}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 4
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 3796: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 54 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 3805: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [3796..3805] data: {'h53, 'h38, 'h28}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 7
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 3886: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 55 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 3895: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [3886..3895] data: {'hb0, 'h89, 'h1a}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 8
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 3936: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 56 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 3945: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [3936..3945] data: {'h9d, 'h5c}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 4
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 3946: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 57 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 3955: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [3946..3955] data: {'h8d, 'h55, 'ha9}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 0
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 4006: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 58 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 4015: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [4006..4015] data: {'hc8, 'h4a, 'h4e}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 5
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 4046: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 59 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 4055: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [4046..4055] data: {'hef, 'h23, 'h47}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 3
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 4086: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 60 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 4095: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [4086..4095] data: {'haf, 'h41, 'h3b}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 3
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 4096: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 61 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 4105: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [4096..4105] data: {'h96, 'hc4, 'h06}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 0
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 4156: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 62 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 4165: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [4156..4165] data: {'h12, 'hc2, 'h95}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 5
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 4196: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 63 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 4205: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [4196..4205] data: {'hfc, 'had, 'h7a}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 3
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 4226: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 64 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 4235: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [4226..4235] data: {'hee, 'h4d, 'h37}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 2
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 4326: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 65 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 4335: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [4326..4335] data: {'hda, 'h05}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 9
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 4376: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 66 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 4385: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [4376..4385] data: {'h47, 'h8c, 'h66}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 4
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 4426: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 67 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 4435: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [4426..4435] data: {'h06, 'h3f, 'h9e}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 4
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 4466: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 68 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 4475: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [4466..4475] data: {'h9e, 'h83, 'ha8}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 3
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 4516: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 69 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 4525: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [4516..4525] data: {'h15, 'h41, 'h79}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 4
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 4606: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 70 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 4615: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [4606..4615] data: {'hbf, 'h75, 'h61}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 8
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 4666: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 71 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 4675: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [4666..4675] data: {'h03, 'he9, 'hea}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 5
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 4736: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 72 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 4745: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [4736..4745] data: {'hcb, 'h6a}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 6
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 4826: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 73 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 4835: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [4826..4835] data: {'h19, 'h66, 'h96}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 8
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 4926: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 74 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 4935: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [4926..4935] data: {'h63, 'h44}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 9
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 4976: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 75 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 4985: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [4976..4985] data: {'hd0, 'ha5, 'hef}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 4
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 5056: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 76 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 5065: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [5056..5065] data: {'h10, 'he2}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 7
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 5106: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 77 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 5115: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [5106..5115] data: {'hb3, 'h2b, 'h7f}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 4
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 5166: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 78 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 5175: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [5166..5175] data: {'hd4, 'h30}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 5
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 5256: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 79 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 5265: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [5256..5265] data: {'hcc, 'h7c, 'hfe}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 8
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 5326: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 80 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 5335: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [5326..5335] data: {'h67, 'h0c, 'h24}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 6
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 5416: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 81 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 5425: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [5416..5425] data: {'haf, 'hfd, 'h93}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 8
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 5466: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 82 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 5475: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [5466..5475] data: {'h4f, 'h20}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 4
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 5546: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 83 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 5555: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [5546..5555] data: {'h77, 'hae, 'h7c}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 7
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 5606: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 84 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 5615: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [5606..5615] data: {'hc5, 'h7f}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 5
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 5656: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 85 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 5665: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [5656..5665] data: {'h6e, 'h8c}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 4
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 5706: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 86 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 5715: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [5706..5715] data: {'h77, 'h92}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 4
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 5746: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 87 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 5755: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [5746..5755] data: {'h97, 'h7c, 'h42}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 3
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 5816: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 88 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 5825: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [5816..5825] data: {'hf4, 'hae}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 6
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 5916: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 89 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 5925: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [5916..5925] data: {'he0, 'h3b}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 9
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 5956: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 90 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 5965: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [5956..5965] data: {'h29, 'hb2, 'h91}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 3
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 6026: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 91 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 6035: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [6026..6035] data: {'h37, 'ha2, 'hba}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 6
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 6096: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 92 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 6105: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [6096..6105] data: {'h59, 'h5a, 'h30}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 6
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 6186: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 93 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 6195: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [6186..6195] data: {'h49, 'h8d, 'h68}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 8
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 6236: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 94 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 6245: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [6236..6245] data: {'hde, 'h51}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 4
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 6276: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 95 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 6285: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [6276..6285] data: {'h70, 'hbf}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 3
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 6376: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 96 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 6385: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [6376..6385] data: {'h84, 'h3e, 'he4}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 9
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 6406: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 97 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 6415: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [6406..6415] data: {'h99, 'hb6, 'he9}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 2
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 6456: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 98 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 6465: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [6456..6465] data: {'h02, 'h61}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 4
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 6536: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 99 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 6545: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [6536..6545] data: {'h0f, 'hde}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 7
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 6556: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 100 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 6565: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [6556..6565] data: {'he5, 'h08}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 1
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 6646: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 101 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 6655: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [6646..6655] data: {'h9e, 'h18}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 8
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 6666: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 102 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 6675: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [6666..6675] data: {'hb6, 'h75, 'h35}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 1
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 6686: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 103 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 6695: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [6686..6695] data: {'h78, 'h18, 'h30}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 1
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 6766: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 104 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 6775: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [6766..6775] data: {'h4b, 'h4b, 'hd6}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 7
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 6836: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 105 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 6845: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [6836..6845] data: {'h69, 'hc4, 'hb6}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 6
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 6896: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 106 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 6905: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [6896..6905] data: {'hbe, 'h0b}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 5
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 6926: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 107 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 6935: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [6926..6935] data: {'ha3, 'h68, 'hfa}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 2
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 6986: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 108 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 6995: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [6986..6995] data: {'h35, 'h9f, 'h74}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 5
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 7026: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 109 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 7035: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [7026..7035] data: {'h31, 'hdd, 'h8c}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 3
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 7136: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 110 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 7145: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [7136..7145] data: {'hc0, 'he4, 'h0a}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 10
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 7206: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 111 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 7215: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [7206..7215] data: {'h60, 'hce}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 6
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 7266: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 112 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 7275: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [7266..7275] data: {'hb5, 'h22}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 5
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 7326: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 113 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 7335: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [7326..7335] data: {'h1c, 'h6f, 'h13}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 5
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 7406: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 114 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 7415: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [7406..7415] data: {'h8e, 'h75}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 7
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 7496: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 115 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 7505: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [7496..7505] data: {'hf1, 'h42}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 8
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 7556: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 116 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 7565: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [7556..7565] data: {'hcb, 'hce}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 5
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 7596: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 117 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 7605: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [7596..7605] data: {'h01, 'ha1}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 3
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 7636: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 118 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 7645: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [7636..7645] data: {'h45, 'hb3, 'ha8}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 3
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 7686: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 119 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 7695: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [7686..7695] data: {'h72, 'h15}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 4
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 7776: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 120 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 7785: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [7776..7785] data: {'h13, 'h6b}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 8
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 7826: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 121 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 7835: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [7826..7835] data: {'hce, 'h06, 'h92}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 4
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 7896: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 122 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 7905: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [7896..7905] data: {'hd4, 'heb, 'hdd}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 6
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 7966: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 123 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 7975: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [7966..7975] data: {'h97, 'he0}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 6
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 8046: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 124 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 8055: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [8046..8055] data: {'h5c, 'h63, 'h85}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 7
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 8136: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 125 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 8145: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [8136..8145] data: {'h90, 'hdd, 'h04}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 8
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 8196: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 126 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 8205: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [8196..8205] data: {'h86, 'h66, 'h1a}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 5
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 8256: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 127 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 8265: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [8256..8265] data: {'h85, 'h68}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 5
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 8286: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 128 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 8295: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [8286..8295] data: {'hcc, 'h8e, 'ha9}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 2
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 8386: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 129 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 8395: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [8386..8395] data: {'h0c, 'he1}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 9
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 8476: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 130 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 8485: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [8476..8485] data: {'h0b, 'h0d}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 8
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 8566: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 131 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 8575: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [8566..8575] data: {'h63, 'had, 'hd6}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 8
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 8626: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 132 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 8635: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [8626..8635] data: {'h81, 'h42, 'h0d}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 5
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 8666: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 133 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 8675: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [8666..8675] data: {'hd0, 'h91, 'h01}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 3
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 8766: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 134 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 8775: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [8766..8775] data: {'h2a, 'h07, 'h5f}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 9
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 8836: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 135 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 8845: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [8836..8845] data: {'h78, 'h5a, 'h3b}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 6
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 8916: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 136 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 8925: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [8916..8925] data: {'h05, 'h9c, 'h5f}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 7
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 8986: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 137 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 8995: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [8986..8995] data: {'had, 'ha8}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 6
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 9086: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 138 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 9095: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [9086..9095] data: {'hb8, 'h71, 'h3c}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 9
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 9186: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 139 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 9195: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [9186..9195] data: {'h88, 'h9a, 'hfa}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 9
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 9246: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 140 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 9255: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [9246..9255] data: {'hbc, 'hca, 'h96}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 5
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 9296: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 141 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 9305: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [9296..9305] data: {'h05, 'h23, 'h9e}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 4
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 9386: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 142 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 9395: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [9386..9395] data: {'h33, 'h2c, 'h89}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 8
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 9456: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 143 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 9465: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [9456..9465] data: {'h20, 'hc1}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 6
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 9496: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 144 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 9505: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [9496..9505] data: {'ha8, 'h90}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 3
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 9546: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 145 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 9555: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [9546..9555] data: {'hb0, 'ha6}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 4
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 9586: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 146 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 9595: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [9586..9595] data: {'hc2, 'h7f, 'hdd}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 3
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 9646: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 147 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 9655: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [9646..9655] data: {'h83, 'h3d}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 5
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 9736: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 148 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 9745: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [9736..9745] data: {'h75, 'h87, 'hfe}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 8
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 9756: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 149 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 9765: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [9756..9765] data: {'h09, 'h5a, 'h5f}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 1
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 9776: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 150 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 9785: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [9776..9785] data: {'hb2, 'h1d}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 1
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 9876: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 151 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 9885: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [9876..9885] data: {'hbd, 'hdc, 'hd2}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 9
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 9926: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 152 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 9935: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [9926..9935] data: {'h20, 'h84, 'hcb}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 4
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 9996: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 153 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 10005: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [9996..10005] data: {'hc0, 'h68, 'hd4}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 6
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 10106: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 154 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 10115: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [10106..10115] data: {'hb6, 'h54, 'h4b}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 10
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 10166: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 155 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 10175: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [10166..10175] data: {'hd6, 'h91, 'hd3}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 5
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 10226: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 156 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 10235: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [10226..10235] data: {'h20, 'hde}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 5
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 10256: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 157 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 10265: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [10256..10265] data: {'h02, 'h49, 'hbe}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 2
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 10366: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 158 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 10375: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [10366..10375] data: {'h87, 'h5f}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 10
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 10406: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 159 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 10415: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [10406..10415] data: {'h17, 'hc3}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 3
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 10436: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 160 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 10445: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [10436..10445] data: {'h51, 'h8c}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 2
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 10466: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 161 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 10475: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [10466..10475] data: {'h10, 'hbe, 'ha9}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 2
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 10536: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 162 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 10545: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [10536..10545] data: {'h2d, 'hb4, 'h09}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 6
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 10616: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 163 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 10625: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [10616..10625] data: {'hb2, 'h1c}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 7
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 10716: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 164 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 10725: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [10716..10725] data: {'hcf, 'hab}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 9
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 10746: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 165 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 10755: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [10746..10755] data: {'hc0, 'h51}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 2
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 10796: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 166 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 10805: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [10796..10805] data: {'h40, 'h23}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 4
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 10826: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 167 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 10835: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [10826..10835] data: {'he6, 'h7c, 'h94}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 2
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 10896: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 168 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 10905: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [10896..10905] data: {'h53, 'h7f}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 6
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 10976: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 169 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 10985: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [10976..10985] data: {'h46, 'h64, 'h3b}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 7
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 11026: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 170 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 11035: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [11026..11035] data: {'h16, 'h07, 'h00}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 4
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 11126: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 171 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 11135: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [11126..11135] data: {'h30, 'h2d, 'h50}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 9
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 11146: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 172 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 11155: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [11146..11155] data: {'h3f, 'hae, 'he0}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 1
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 11206: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 173 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 11215: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [11206..11215] data: {'hb8, 'h1a, 'hce}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 5
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 11236: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 174 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 11245: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [11236..11245] data: {'h70, 'h65}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 2
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 11306: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 175 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 11315: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [11306..11315] data: {'h1a, 'hfd, 'h62}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 6
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 11386: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 176 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 11395: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [11386..11395] data: {'h7c, 'h6e, 'hb2}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 7
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 11436: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 177 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 11445: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [11436..11445] data: {'h05, 'hc5, 'h5d}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 4
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 11496: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 178 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 11505: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [11496..11505] data: {'h36, 'h37, 'hbb}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 5
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 11516: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 179 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 11525: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [11516..11525] data: {'h69, 'ha3, 'h96}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 1
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 11546: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 180 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 11555: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [11546..11555] data: {'h00, 'h4b}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 2
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 11626: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 181 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 11635: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [11626..11635] data: {'hb2, 'h48}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 7
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 11686: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 182 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 11695: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [11686..11695] data: {'h76, 'h79}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 5
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 11706: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 183 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 11715: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [11706..11715] data: {'h95, 'h8c}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 1
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 11756: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 184 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 11765: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [11756..11765] data: {'hee, 'h2a, 'h4e}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 4
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 11846: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 185 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 11855: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [11846..11855] data: {'h45, 'he6}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 8
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 11906: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 186 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 11915: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [11906..11915] data: {'h47, 'ha8}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 5
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 11986: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 187 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 11995: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [11986..11995] data: {'h34, 'he5}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 7
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 12056: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 188 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 12065: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [12056..12065] data: {'h6f, 'hc5, 'h9f}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 6
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 12126: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 189 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 12135: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [12126..12135] data: {'hd3, 'h0a, 'h2c}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 6
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 12156: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 190 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 12165: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [12156..12165] data: {'hd3, 'h0b}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 2
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 12226: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 191 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 12235: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [12226..12235] data: {'h19, 'h03, 'h06}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 6
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 12256: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 192 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 12265: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [12256..12265] data: {'h4c, 'ha5}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 2
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 12326: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 193 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 12335: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [12326..12335] data: {'h43, 'he6}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 6
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 12406: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 194 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 12415: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [12406..12415] data: {'h7a, 'he9, 'hc2}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 7
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 12466: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 195 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 12475: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [12466..12475] data: {'hd0, 'hc1, 'h69}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 5
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 12526: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 196 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 12535: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [12526..12535] data: {'h07, 'hec}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 5
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 12576: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 197 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 12585: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [12576..12585] data: {'h3d, 'h6a, 'hac}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 4
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 12616: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 198 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 12625: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [12616..12625] data: {'he0, 'he2, 'hc6}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 3
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 12656: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 199 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 12665: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [12656..12665] data: {'hf6, 'ha4, 'h9c}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 3
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 12726: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 200 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 12735: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [12726..12735] data: {'hff, 'h99, 'hc9}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 6
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 12736: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 201 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 12745: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [12736..12745] data: {'hbd, 'h9a}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 0
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 12816: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 202 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 12825: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [12816..12825] data: {'ha4, 'h3d, 'ha4}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 7
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 12906: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 203 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 12915: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [12906..12915] data: {'h9b, 'h70, 'h1b}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 8
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 12976: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 204 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 12985: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [12976..12985] data: {'h06, 'h44, 'h4e}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 6
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 13056: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 205 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 13065: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [13056..13065] data: {'h81, 'ha5, 'h5e}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 7
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 13116: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 206 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 13125: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [13116..13125] data: {'h5e, 'h18, 'hfc}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 5
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 13186: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 207 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 13195: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [13186..13195] data: {'h6c, 'hb7, 'h78}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 6
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 13276: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 208 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 13285: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [13276..13285] data: {'he8, 'h1f, 'h07}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 8
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 13356: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 209 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 13365: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [13356..13365] data: {'h61, 'h15, 'h29}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 7
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 13416: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 210 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 13425: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [13416..13425] data: {'h8d, 'h00}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 5
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 13466: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 211 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 13475: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [13466..13475] data: {'h65, 'ha0, 'h76}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 4
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 13546: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 212 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 13555: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [13546..13555] data: {'h18, 'h89, 'hf8}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 7
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 13616: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 213 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 13625: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [13616..13625] data: {'h84, 'h59}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 6
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 13626: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 214 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 13635: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [13626..13635] data: {'hcb, 'ha3, 'h06}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 0
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 13696: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 215 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 13705: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [13696..13705] data: {'hc2, 'hf9}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 6
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 13766: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 216 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 13775: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [13766..13775] data: {'hc8, 'hd9, 'h90}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 6
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 13816: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 217 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 13825: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [13816..13825] data: {'h09, 'h8b, 'heb}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 4
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 13846: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 218 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 13855: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [13846..13855] data: {'h45, 'hd8, 'hf6}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 2
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 13936: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 219 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 13945: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [13936..13945] data: {'h12, 'h0c}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 8
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 13966: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 220 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 13975: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [13966..13975] data: {'he2, 'h45, 'h09}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 2
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 14076: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 221 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 14085: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [14076..14085] data: {'h7d, 'hf7}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 10
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 14146: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 222 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 14155: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [14146..14155] data: {'h7e, 'h4b}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 6
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 14246: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 223 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 14255: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [14246..14255] data: {'hb4, 'h55}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 9
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 14316: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 224 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 14325: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [14316..14325] data: {'hd4, 'hc4, 'h0d}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 6
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 14386: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 225 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 14395: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [14386..14395] data: {'hc7, 'h19}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 6
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 14446: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 226 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 14455: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [14446..14455] data: {'h50, 'h7c, 'h71}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 5
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 14486: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 227 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 14495: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [14486..14495] data: {'he0, 'hdb, 'h3c}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 3
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 14586: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 228 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 14595: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [14586..14595] data: {'h34, 'hb2, 'h9e}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 9
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 14656: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 229 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 14665: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [14656..14665] data: {'h78, 'h67, 'haa}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 6
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 14726: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 230 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 14735: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [14726..14735] data: {'h7f, 'h47, 'hfd}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 6
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 14756: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 231 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 14765: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [14756..14765] data: {'h49, 'h99, 'haf}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 2
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 14836: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 232 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 14845: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [14836..14845] data: {'he7, 'hde}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 7
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 14926: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 233 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 14935: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [14926..14935] data: {'he9, 'h8f, 'ha2}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 8
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 15006: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 234 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 15015: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [15006..15015] data: {'h5e, 'hf1}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 7
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 15096: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 235 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 15105: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [15096..15105] data: {'h42, 'h94}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 8
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 15166: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 236 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 15175: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [15166..15175] data: {'h64, 'hcd, 'hdc}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 6
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 15206: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 237 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 15215: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [15206..15215] data: {'hc1, 'h59, 'h0b}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 3
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 15246: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 238 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 15255: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [15246..15255] data: {'h0f, 'h2d}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 3
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 15326: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 239 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 15335: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [15326..15335] data: {'hbb, 'h4f}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 7
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 15426: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 240 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 15435: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [15426..15435] data: {'hba, 'h4f, 'he1}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 9
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 15496: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 241 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 15505: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [15496..15505] data: {'hc5, 'hfa, 'hee}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 6
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 15576: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 242 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 15585: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [15576..15585] data: {'h89, 'h2a, 'h69}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 7
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 15636: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 243 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 15645: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [15636..15645] data: {'hb7, 'h68, 'h2d}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 5
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 15696: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 244 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 15705: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [15696..15705] data: {'h16, 'h56, 'hf1}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 5
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 15786: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 245 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 15795: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [15786..15795] data: {'h4e, 'h65, 'hd6}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 8
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 15836: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 246 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 15845: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [15836..15845] data: {'h3a, 'hfd, 'hf9}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 4
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 15886: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 247 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 15895: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [15886..15895] data: {'h1d, 'hf8, 'h4b}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 4
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 15996: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 248 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 16005: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [15996..16005] data: {'h3b, 'h13, 'h10}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 10
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 16056: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 249 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 16065: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [16056..16065] data: {'h6e, 'h14, 'hd6}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 5
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 16076: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 250 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 16085: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [16076..16085] data: {'h71, 'hce}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 1
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 16126: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 251 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 16135: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [16126..16135] data: {'h79, 'h5a, 'h8a}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 4
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 16206: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 252 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 16215: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [16206..16215] data: {'h26, 'h9f, 'h36}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 7
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 16256: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 253 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 16265: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [16256..16265] data: {'h10, 'hcb}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 4
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 16326: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 254 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 16335: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [16326..16335] data: {'hff, 'h78, 'h3c}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 6
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 16386: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 255 due to: CFS_MD_ERR
+# UVM_INFO ../model/cfs_algn_model.sv(208) @ 16386: uvm_test_top.env.model [CNT_DROP] Drop counter reached max value - reg_block.IRQEN.MAX_DROP: 1
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 16395: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [16386..16395] data: {'h06, 'h8f}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 5
+# UVM_WARNING verilog_src/uvm-1.1d/src/reg/uvm_reg_field.svh(1714) @ 16515: reporter [RegModel] Individual field access not available for field 'reg_block.CTRL.CLR'. Accessing complete register instead.
+# UVM_INFO verilog_src/uvm-1.1d/src/reg/uvm_reg_predictor.svh(218) @ 16555: uvm_test_top.env.predictor [REG_PREDICT] Observed WRITE transaction to register reg_block.CTRL: value='h1 : updated value = 'h1
+# UVM_WARNING verilog_src/uvm-1.1d/src/reg/uvm_reg_field.svh(1714) @ 16795: reporter [RegModel] Individual field access not available for field 'reg_block.CTRL.CLR'. Accessing complete register instead.
+# UVM_INFO ../model/cfs_algn_clr_cnt_drop.sv(25) @ 16865: reporter [CNT_DROP] Clearing reg_block.STATUS.CNT_DROP
+# UVM_INFO verilog_src/uvm-1.1d/src/reg/uvm_reg_predictor.svh(218) @ 16865: uvm_test_top.env.predictor [REG_PREDICT] Observed WRITE transaction to register reg_block.CTRL: value='h10001 : updated value = 'h1
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 16926: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 1 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 16935: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [16926..16935] data: {'h9e, 'hd3, 'h14}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 53
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 17016: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 2 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 17025: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [17016..17025] data: {'h91, 'hd5}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 8
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 17066: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 3 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 17075: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [17066..17075] data: {'h2a, 'h5a, 'hf7}, size: 3, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 4
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 17156: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 4 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 17165: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [17156..17165] data: {'h03, 'h39, 'h33}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 8
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 17226: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 5 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 17235: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [17226..17235] data: {'hcb, 'h52, 'hc0}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 6
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 17286: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 6 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 17295: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [17286..17295] data: {'h97, 'h54, 'hc0}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 5
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 17376: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 7 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 17385: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [17376..17385] data: {'hd9, 'hfb, 'h2d}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 8
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 17476: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 8 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 17485: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [17476..17485] data: {'hed, 'h87, 'h04}, size: 3, offset: 0, response: CFS_MD_ERR, length: 1, prev_item_delay: 9
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 17556: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 9 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 17565: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [17556..17565] data: {'hf4, 'hdc}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 7
+# UVM_INFO ../model/cfs_algn_model.sv(378) @ 17646: uvm_test_top.env.model [CNT_DROP] Increment reg_block.STATUS.CNT_DROP: 10 due to: CFS_MD_ERR
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 17655: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [17646..17655] data: {'h13, 'h38}, size: 2, offset: 1, response: CFS_MD_ERR, length: 1, prev_item_delay: 8
+# UVM_WARNING verilog_src/uvm-1.1d/src/reg/uvm_reg_field.svh(1714) @ 17885: reporter [RegModel] Individual field access not available for field 'reg_block.CTRL.CLR'. Accessing complete register instead.
+# UVM_INFO ../model/cfs_algn_clr_cnt_drop.sv(25) @ 17955: reporter [CNT_DROP] Clearing reg_block.STATUS.CNT_DROP
+# UVM_INFO verilog_src/uvm-1.1d/src/reg/uvm_reg_predictor.svh(218) @ 17955: uvm_test_top.env.predictor [REG_PREDICT] Observed WRITE transaction to register reg_block.CTRL: value='h10001 : updated value = 'h1
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 18155: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# 
+# --- UVM Report Summary ---
+# 
+# Quit count :     0 of     1
+# ** Report counts by severity
+# UVM_INFO :  542
+# UVM_WARNING :    3
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [CNT_DROP]   268
+# [ITEM_END]   265
+# [MAXQUITSET]     1
+# [Questa UVM]     2
+# [REG_PREDICT]     4
+# [RNTST]     1
+# [RegModel]     3
+# [TEST_DONE]     1
+# ** Note: $finish    : /home/user/Downloads/questasim/linux_x86_64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 18155 ns  Iteration: 54  Instance: /testbench
+# Saving coverage database on exit...
+# End time: 06:03:45 on May 11,2026, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 16
+
+[INFO] Simulation Completed
+
+make[2]: Leaving directory '/home/user/Documents/aligner_repo-main-1/aligner_repo-main/tb/sim'

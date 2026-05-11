@@ -1,0 +1,223 @@
+make[2]: Entering directory '/home/user/Documents/aligner_repo-main-1/aligner_repo-main/tb/sim'
+=================================================
+[INFO] Running TESTNAME=cfs_algn_md_tests_3_2_4
+=================================================
+Reading pref.tcl
+
+# 2021.2_1
+
+# vsim -coverage -c work.testbench "+UVM_TESTNAME=cfs_algn_md_tests_3_2_4" "+sv_seed=340250249" "+UVM_MAX_QUIT_COUNT=1" "+access+rw" -f messages.f -do "do ../../tb/sim/toggle_exclude.do; coverage save -onexit ucdb/cfs_algn_md_tests_3_2_4.ucdb; run -all; quit;" 
+# Start time: 06:04:34 on May 11,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 2021.2_1 linux_x86_64 May 15 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.cfs_algn_if(fast)
+# Loading work.cfs_apb_if(fast)
+# Loading work.cfs_md_if(fast)
+# Loading mtiUvm.uvm_pkg(fast)
+# Loading work.cfs_algn_reg_pkg(fast)
+# Loading work.uvm_ext_pkg(fast)
+# Loading work.cfs_md_pkg(fast)
+# Loading work.cfs_apb_pkg(fast)
+# Loading work.cfs_algn_pkg(fast)
+# Loading work.cfs_algn_test_pkg(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.testbench(fast)
+# Loading work.cfs_apb_if(fast__2)
+# Loading work.cfs_md_if(fast__2)
+# Loading work.cfs_algn_if(fast__2)
+# Loading work.cfs_aligner(fast)
+# Loading work.cfs_aligner_core(fast)
+# Loading work.cfs_rx_ctrl(fast)
+# Loading work.cfs_synch(fast)
+# Loading work.cfs_synch_fifo(fast)
+# Loading work.cfs_tx_ctrl(fast)
+# Loading work.cfs_ctrl(fast)
+# Loading work.cfs_regs(fast)
+# Loading work.cfs_edge_detect(fast)
+# Loading work.cfs_edge_detect(fast__1)
+# Loading /home/user/Downloads/questasim/uvm-1.1d/linux_x86_64/uvm_dpi.so
+# do ../../tb/sim/toggle_exclude.do
+# ** Warning: -comment options is supported in post simulation viewcov mode only, ignoring it.
+# ** Warning: -comment options is supported in post simulation viewcov mode only, ignoring it.
+# ** Warning: -comment options is supported in post simulation viewcov mode only, ignoring it.
+# ** Warning: -comment options is supported in post simulation viewcov mode only, ignoring it.
+# ** Warning: -comment options is supported in post simulation viewcov mode only, ignoring it.
+#  coverage save -onexit ucdb/cfs_algn_md_tests_3_2_4.ucdb
+#  run -all
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(277) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(278) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test cfs_algn_md_tests_3_2_4...
+# UVM_INFO @ 0: reporter [MAXQUITSET] '+UVM_MAX_QUIT_COUNT=1' provided on the command line is being applied.
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'length_eq_2' in Coverpoint 'length' of Covergroup instance '\/cfs_apb_pkg::cfs_apb_coverage::cover_item ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 7  Region: /uvm_pkg::uvm_phase::m_run_phases
+# ** Warning: (vsim-8547) After dropping the illegal, ignore or invalid values, the values list associated with fixed-size array sub bin 'length_le_10[1]' in Coverpoint 'length' of Covergroup instance '\/cfs_apb_pkg::cfs_apb_coverage::cover_item ' has converged to empty list. The sub bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 7  Region: /uvm_pkg::uvm_phase::m_run_phases
+# ** Warning: (vsim-8547) After dropping the illegal, ignore or invalid values, the values list associated with fixed-size array sub bin 'length_le_10[2]' in Coverpoint 'length' of Covergroup instance '\/cfs_apb_pkg::cfs_apb_coverage::cover_item ' has converged to empty list. The sub bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 7  Region: /uvm_pkg::uvm_phase::m_run_phases
+# ** Warning: (vsim-8547) After dropping the illegal, ignore or invalid values, the values list associated with fixed-size array sub bin 'length_le_10[3]' in Coverpoint 'length' of Covergroup instance '\/cfs_apb_pkg::cfs_apb_coverage::cover_item ' has converged to empty list. The sub bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 7  Region: /uvm_pkg::uvm_phase::m_run_phases
+# ** Warning: (vsim-8547) After dropping the illegal, ignore or invalid values, the values list associated with fixed-size array sub bin 'length_le_10[4]' in Coverpoint 'length' of Covergroup instance '\/cfs_apb_pkg::cfs_apb_coverage::cover_item ' has converged to empty list. The sub bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 7  Region: /uvm_pkg::uvm_phase::m_run_phases
+# ** Warning: (vsim-8547) After dropping the illegal, ignore or invalid values, the values list associated with fixed-size array sub bin 'length_le_10[5]' in Coverpoint 'length' of Covergroup instance '\/cfs_apb_pkg::cfs_apb_coverage::cover_item ' has converged to empty list. The sub bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 7  Region: /uvm_pkg::uvm_phase::m_run_phases
+# ** Warning: (vsim-8547) After dropping the illegal, ignore or invalid values, the values list associated with fixed-size array sub bin 'length_le_10[6]' in Coverpoint 'length' of Covergroup instance '\/cfs_apb_pkg::cfs_apb_coverage::cover_item ' has converged to empty list. The sub bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 7  Region: /uvm_pkg::uvm_phase::m_run_phases
+# ** Warning: (vsim-8547) After dropping the illegal, ignore or invalid values, the values list associated with fixed-size array sub bin 'length_le_10[7]' in Coverpoint 'length' of Covergroup instance '\/cfs_apb_pkg::cfs_apb_coverage::cover_item ' has converged to empty list. The sub bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 7  Region: /uvm_pkg::uvm_phase::m_run_phases
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'length_gt_10' in Coverpoint 'length' of Covergroup instance '\/cfs_apb_pkg::cfs_apb_coverage::cover_item ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 7  Region: /uvm_pkg::uvm_phase::m_run_phases
+# ** Warning: (vsim-12051) Illegal assignment in cast to class work.cfs_md_pkg::cfs_md_sequencer_base_master from class work.uvm_ext_pkg::uvm_ext_sequencer #(class work.cfs_md_pkg::cfs_md_item_drv_master)
+#    Time: 0 ns  Iteration: 32  Process: /uvm_pkg::uvm_phase::m_run_phases/#FORK#1847_7fefe44bd36 File: ../env/cfs_algn_env.sv Line: 129
+# ** Warning: (vsim-12051) Illegal assignment in cast to class work.cfs_md_pkg::cfs_md_sequencer_base_slave from class work.uvm_ext_pkg::uvm_ext_sequencer #(class work.cfs_md_pkg::cfs_md_item_drv_slave)
+#    Time: 0 ns  Iteration: 32  Process: /uvm_pkg::uvm_phase::m_run_phases/#FORK#1847_7fefe44bd36 File: ../env/cfs_algn_env.sv Line: 130
+# UVM_INFO verilog_src/uvm-1.1d/src/reg/uvm_reg_predictor.svh(218) @ 165: uvm_test_top.env.predictor [REG_PREDICT] Observed WRITE transaction to register reg_block.IRQEN: value='h13 : updated value = 'h13
+# UVM_INFO verilog_src/uvm-1.1d/src/reg/uvm_reg_predictor.svh(218) @ 195: uvm_test_top.env.predictor [REG_PREDICT] Observed WRITE transaction to register reg_block.CTRL: value='h2 : updated value = 'h2
+# UVM_INFO verilog_src/uvm-1.1d/src/reg/uvm_reg_predictor.svh(218) @ 235: uvm_test_top.env.predictor [REG_PREDICT] Observed WRITE transaction to register reg_block.IRQ: value='hd : updated value = 'h0
+# UVM_INFO verilog_src/uvm-1.1d/src/reg/uvm_reg_predictor.svh(218) @ 315: uvm_test_top.env.predictor [REG_PREDICT] Observed WRITE transaction to register reg_block.CTRL: value='h4 : updated value = 'h4
+# UVM_INFO verilog_src/uvm-1.1d/src/reg/uvm_reg_predictor.svh(223) @ 365: uvm_test_top.env.predictor [REG_PREDICT] Observed READ transaction to register reg_block.CTRL: value='h4
+# UVM_INFO ../test/md_tests/cfs_algn_md_tests_3_2_4.sv(52) @ 375: uvm_test_top [3_2_4] CTRL register value: 0x0
+# UVM_INFO ../model/cfs_algn_model.sv(543) @ 925: uvm_test_top.env.model [DEBUG] RX FIFO push - new level: 1, pushed entry: [916..] data: {'h0a}, size: 1, offset: 0, response: CFS_MD_OKAY, length: 1, prev_item_delay: 88
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 925: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [916..925] data: {'h0a}, size: 1, offset: 0, response: CFS_MD_OKAY, length: 1, prev_item_delay: 88
+# UVM_INFO ../model/cfs_algn_model.sv(757) @ 935: uvm_test_top.env.model [RX_FIFO] RX FIFO pop - new level: 0, popped entry: [916..925] data: {'h0a}, size: 1, offset: 0, response: CFS_MD_OKAY, length: 1, prev_item_delay: 88
+# UVM_INFO ../model/cfs_algn_model.sv(258) @ 935: uvm_test_top.env.model [RX_FIFO] RX FIFO became empty - reg_block.IRQ.RX_FIFO_EMPTY: 1
+# UVM_WARNING verilog_src/uvm-1.1d/src/reg/uvm_reg_field.svh(1714) @ 990: reporter [RegModel] Individual field access not available for field 'reg_block.STATUS.RX_LVL'. Accessing complete register instead.
+# UVM_INFO verilog_src/uvm-1.1d/src/reg/uvm_reg_predictor.svh(223) @ 1035: uvm_test_top.env.predictor [REG_PREDICT] Observed READ transaction to register reg_block.STATUS: value='h0
+# UVM_WARNING verilog_src/uvm-1.1d/src/reg/uvm_reg_field.svh(1714) @ 1035: reporter [RegModel] Individual field access not available for field 'reg_block.STATUS.TX_LVL'. Accessing complete register instead.
+# UVM_INFO verilog_src/uvm-1.1d/src/reg/uvm_reg_predictor.svh(223) @ 1105: uvm_test_top.env.predictor [REG_PREDICT] Observed READ transaction to register reg_block.STATUS: value='h0
+# UVM_INFO ../test/md_tests/cfs_algn_md_tests_3_2_4.sv(72) @ 1125: uvm_test_top [3_2_4] RX_LVL = 0, TX_LVL = 0
+# UVM_INFO ../model/cfs_algn_model.sv(543) @ 1185: uvm_test_top.env.model [DEBUG] RX FIFO push - new level: 1, pushed entry: [1176..] data: {'hec}, size: 1, offset: 0, response: CFS_MD_OKAY, length: 1, prev_item_delay: 25
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 1185: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [1176..1185] data: {'hec}, size: 1, offset: 0, response: CFS_MD_OKAY, length: 1, prev_item_delay: 25
+# UVM_INFO ../model/cfs_algn_model.sv(757) @ 1195: uvm_test_top.env.model [RX_FIFO] RX FIFO pop - new level: 0, popped entry: [1176..1185] data: {'hec}, size: 1, offset: 0, response: CFS_MD_OKAY, length: 1, prev_item_delay: 25
+# UVM_INFO ../model/cfs_algn_model.sv(258) @ 1195: uvm_test_top.env.model [RX_FIFO] RX FIFO became empty - reg_block.IRQ.RX_FIFO_EMPTY: 1
+# UVM_WARNING verilog_src/uvm-1.1d/src/reg/uvm_reg_field.svh(1714) @ 1280: reporter [RegModel] Individual field access not available for field 'reg_block.STATUS.RX_LVL'. Accessing complete register instead.
+# UVM_INFO verilog_src/uvm-1.1d/src/reg/uvm_reg_predictor.svh(223) @ 1315: uvm_test_top.env.predictor [REG_PREDICT] Observed READ transaction to register reg_block.STATUS: value='h0
+# UVM_WARNING verilog_src/uvm-1.1d/src/reg/uvm_reg_field.svh(1714) @ 1325: reporter [RegModel] Individual field access not available for field 'reg_block.STATUS.TX_LVL'. Accessing complete register instead.
+# UVM_INFO verilog_src/uvm-1.1d/src/reg/uvm_reg_predictor.svh(223) @ 1365: uvm_test_top.env.predictor [REG_PREDICT] Observed READ transaction to register reg_block.STATUS: value='h0
+# UVM_INFO ../test/md_tests/cfs_algn_md_tests_3_2_4.sv(72) @ 1395: uvm_test_top [3_2_4] RX_LVL = 0, TX_LVL = 0
+# UVM_INFO ../model/cfs_algn_model.sv(543) @ 1445: uvm_test_top.env.model [DEBUG] RX FIFO push - new level: 1, pushed entry: [1436..] data: {'h2e}, size: 1, offset: 0, response: CFS_MD_OKAY, length: 1, prev_item_delay: 25
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 1445: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [1436..1445] data: {'h2e}, size: 1, offset: 0, response: CFS_MD_OKAY, length: 1, prev_item_delay: 25
+# UVM_INFO ../model/cfs_algn_model.sv(757) @ 1455: uvm_test_top.env.model [RX_FIFO] RX FIFO pop - new level: 0, popped entry: [1436..1445] data: {'h2e}, size: 1, offset: 0, response: CFS_MD_OKAY, length: 1, prev_item_delay: 25
+# UVM_INFO ../model/cfs_algn_model.sv(258) @ 1455: uvm_test_top.env.model [RX_FIFO] RX FIFO became empty - reg_block.IRQ.RX_FIFO_EMPTY: 1
+# UVM_WARNING verilog_src/uvm-1.1d/src/reg/uvm_reg_field.svh(1714) @ 1550: reporter [RegModel] Individual field access not available for field 'reg_block.STATUS.RX_LVL'. Accessing complete register instead.
+# UVM_INFO verilog_src/uvm-1.1d/src/reg/uvm_reg_predictor.svh(223) @ 1585: uvm_test_top.env.predictor [REG_PREDICT] Observed READ transaction to register reg_block.STATUS: value='h0
+# UVM_WARNING verilog_src/uvm-1.1d/src/reg/uvm_reg_field.svh(1714) @ 1635: reporter [RegModel] Individual field access not available for field 'reg_block.STATUS.TX_LVL'. Accessing complete register instead.
+# UVM_INFO verilog_src/uvm-1.1d/src/reg/uvm_reg_predictor.svh(223) @ 1685: uvm_test_top.env.predictor [REG_PREDICT] Observed READ transaction to register reg_block.STATUS: value='h0
+# UVM_INFO ../test/md_tests/cfs_algn_md_tests_3_2_4.sv(72) @ 1725: uvm_test_top [3_2_4] RX_LVL = 0, TX_LVL = 0
+# UVM_INFO ../model/cfs_algn_model.sv(543) @ 1745: uvm_test_top.env.model [DEBUG] RX FIFO push - new level: 1, pushed entry: [1736..] data: {'h92}, size: 1, offset: 0, response: CFS_MD_OKAY, length: 1, prev_item_delay: 29
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 1745: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [1736..1745] data: {'h92}, size: 1, offset: 0, response: CFS_MD_OKAY, length: 1, prev_item_delay: 29
+# UVM_INFO ../model/cfs_algn_model.sv(757) @ 1755: uvm_test_top.env.model [RX_FIFO] RX FIFO pop - new level: 0, popped entry: [1736..1745] data: {'h92}, size: 1, offset: 0, response: CFS_MD_OKAY, length: 1, prev_item_delay: 29
+# UVM_INFO ../model/cfs_algn_model.sv(847) @ 1755: uvm_test_top.env.model [DEBUG1] md_offset:         0, md_size:         1##########################################################
+# UVM_INFO ../model/cfs_algn_model.sv(258) @ 1755: uvm_test_top.env.model [RX_FIFO] RX FIFO became empty - reg_block.IRQ.RX_FIFO_EMPTY: 1
+# UVM_INFO ../model/cfs_algn_model.sv(772) @ 1765: uvm_test_top.env.model [TX_FIFO] TX FIFO push - new level: 1, pushed entry: [916..1745] data: {'h0a, 'hec, 'h2e, 'h92}, size: 4, offset: 0, response: CFS_MD_OKAY, length: 0, prev_item_delay: 0
+# UVM_INFO ../model/cfs_algn_model.sv(787) @ 1805: uvm_test_top.env.model [TX_FIFO] TX FIFO pop - new level: 0, popped entry: [916..1745] data: {'h0a, 'hec, 'h2e, 'h92}, size: 4, offset: 0, response: CFS_MD_OKAY, length: 0, prev_item_delay: 0
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 1805: uvm_test_top.env.md_tx_agent.monitor [ITEM_END] Monitored item: [1766..1805] data: {'h0a, 'hec, 'h2e, 'h92}, size: 4, offset: 0, response: CFS_MD_ERR, length: 4, prev_item_delay: 173
+# UVM_INFO ../model/cfs_algn_model.sv(312) @ 1805: uvm_test_top.env.model [TX_FIFO] TX FIFO became empty - reg_block.IRQ.TX_FIFO_EMPTY: 1
+# UVM_WARNING verilog_src/uvm-1.1d/src/reg/uvm_reg_field.svh(1714) @ 1820: reporter [RegModel] Individual field access not available for field 'reg_block.STATUS.RX_LVL'. Accessing complete register instead.
+# UVM_INFO verilog_src/uvm-1.1d/src/reg/uvm_reg_predictor.svh(223) @ 1845: uvm_test_top.env.predictor [REG_PREDICT] Observed READ transaction to register reg_block.STATUS: value='h0
+# UVM_WARNING verilog_src/uvm-1.1d/src/reg/uvm_reg_field.svh(1714) @ 1855: reporter [RegModel] Individual field access not available for field 'reg_block.STATUS.TX_LVL'. Accessing complete register instead.
+# UVM_INFO verilog_src/uvm-1.1d/src/reg/uvm_reg_predictor.svh(223) @ 1925: uvm_test_top.env.predictor [REG_PREDICT] Observed READ transaction to register reg_block.STATUS: value='h0
+# UVM_INFO ../test/md_tests/cfs_algn_md_tests_3_2_4.sv(72) @ 1955: uvm_test_top [3_2_4] RX_LVL = 0, TX_LVL = 0
+# UVM_INFO ../model/cfs_algn_model.sv(543) @ 1995: uvm_test_top.env.model [DEBUG] RX FIFO push - new level: 1, pushed entry: [1986..] data: {'h5c}, size: 1, offset: 0, response: CFS_MD_OKAY, length: 1, prev_item_delay: 24
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 1995: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [1986..1995] data: {'h5c}, size: 1, offset: 0, response: CFS_MD_OKAY, length: 1, prev_item_delay: 24
+# UVM_INFO ../model/cfs_algn_model.sv(757) @ 2005: uvm_test_top.env.model [RX_FIFO] RX FIFO pop - new level: 0, popped entry: [1986..1995] data: {'h5c}, size: 1, offset: 0, response: CFS_MD_OKAY, length: 1, prev_item_delay: 24
+# UVM_INFO ../model/cfs_algn_model.sv(258) @ 2005: uvm_test_top.env.model [RX_FIFO] RX FIFO became empty - reg_block.IRQ.RX_FIFO_EMPTY: 1
+# UVM_WARNING verilog_src/uvm-1.1d/src/reg/uvm_reg_field.svh(1714) @ 2090: reporter [RegModel] Individual field access not available for field 'reg_block.STATUS.RX_LVL'. Accessing complete register instead.
+# UVM_INFO verilog_src/uvm-1.1d/src/reg/uvm_reg_predictor.svh(223) @ 2155: uvm_test_top.env.predictor [REG_PREDICT] Observed READ transaction to register reg_block.STATUS: value='h0
+# UVM_WARNING verilog_src/uvm-1.1d/src/reg/uvm_reg_field.svh(1714) @ 2175: reporter [RegModel] Individual field access not available for field 'reg_block.STATUS.TX_LVL'. Accessing complete register instead.
+# UVM_INFO verilog_src/uvm-1.1d/src/reg/uvm_reg_predictor.svh(223) @ 2205: uvm_test_top.env.predictor [REG_PREDICT] Observed READ transaction to register reg_block.STATUS: value='h0
+# UVM_INFO ../test/md_tests/cfs_algn_md_tests_3_2_4.sv(72) @ 2225: uvm_test_top [3_2_4] RX_LVL = 0, TX_LVL = 0
+# UVM_INFO ../model/cfs_algn_model.sv(543) @ 2235: uvm_test_top.env.model [DEBUG] RX FIFO push - new level: 1, pushed entry: [2226..] data: {'hb0}, size: 1, offset: 0, response: CFS_MD_OKAY, length: 1, prev_item_delay: 23
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 2235: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [2226..2235] data: {'hb0}, size: 1, offset: 0, response: CFS_MD_OKAY, length: 1, prev_item_delay: 23
+# UVM_INFO ../model/cfs_algn_model.sv(757) @ 2245: uvm_test_top.env.model [RX_FIFO] RX FIFO pop - new level: 0, popped entry: [2226..2235] data: {'hb0}, size: 1, offset: 0, response: CFS_MD_OKAY, length: 1, prev_item_delay: 23
+# UVM_INFO ../model/cfs_algn_model.sv(258) @ 2245: uvm_test_top.env.model [RX_FIFO] RX FIFO became empty - reg_block.IRQ.RX_FIFO_EMPTY: 1
+# UVM_WARNING verilog_src/uvm-1.1d/src/reg/uvm_reg_field.svh(1714) @ 2330: reporter [RegModel] Individual field access not available for field 'reg_block.STATUS.RX_LVL'. Accessing complete register instead.
+# UVM_INFO verilog_src/uvm-1.1d/src/reg/uvm_reg_predictor.svh(223) @ 2395: uvm_test_top.env.predictor [REG_PREDICT] Observed READ transaction to register reg_block.STATUS: value='h0
+# UVM_WARNING verilog_src/uvm-1.1d/src/reg/uvm_reg_field.svh(1714) @ 2405: reporter [RegModel] Individual field access not available for field 'reg_block.STATUS.TX_LVL'. Accessing complete register instead.
+# UVM_INFO verilog_src/uvm-1.1d/src/reg/uvm_reg_predictor.svh(223) @ 2465: uvm_test_top.env.predictor [REG_PREDICT] Observed READ transaction to register reg_block.STATUS: value='h0
+# UVM_INFO ../test/md_tests/cfs_algn_md_tests_3_2_4.sv(72) @ 2465: uvm_test_top [3_2_4] RX_LVL = 0, TX_LVL = 0
+# UVM_INFO ../model/cfs_algn_model.sv(543) @ 2485: uvm_test_top.env.model [DEBUG] RX FIFO push - new level: 1, pushed entry: [2476..] data: {'hac}, size: 1, offset: 0, response: CFS_MD_OKAY, length: 1, prev_item_delay: 24
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 2485: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [2476..2485] data: {'hac}, size: 1, offset: 0, response: CFS_MD_OKAY, length: 1, prev_item_delay: 24
+# UVM_INFO ../model/cfs_algn_model.sv(757) @ 2495: uvm_test_top.env.model [RX_FIFO] RX FIFO pop - new level: 0, popped entry: [2476..2485] data: {'hac}, size: 1, offset: 0, response: CFS_MD_OKAY, length: 1, prev_item_delay: 24
+# UVM_INFO ../model/cfs_algn_model.sv(258) @ 2495: uvm_test_top.env.model [RX_FIFO] RX FIFO became empty - reg_block.IRQ.RX_FIFO_EMPTY: 1
+# UVM_WARNING verilog_src/uvm-1.1d/src/reg/uvm_reg_field.svh(1714) @ 2570: reporter [RegModel] Individual field access not available for field 'reg_block.STATUS.RX_LVL'. Accessing complete register instead.
+# UVM_INFO verilog_src/uvm-1.1d/src/reg/uvm_reg_predictor.svh(223) @ 2625: uvm_test_top.env.predictor [REG_PREDICT] Observed READ transaction to register reg_block.STATUS: value='h0
+# UVM_WARNING verilog_src/uvm-1.1d/src/reg/uvm_reg_field.svh(1714) @ 2665: reporter [RegModel] Individual field access not available for field 'reg_block.STATUS.TX_LVL'. Accessing complete register instead.
+# UVM_INFO verilog_src/uvm-1.1d/src/reg/uvm_reg_predictor.svh(223) @ 2695: uvm_test_top.env.predictor [REG_PREDICT] Observed READ transaction to register reg_block.STATUS: value='h0
+# UVM_INFO ../test/md_tests/cfs_algn_md_tests_3_2_4.sv(72) @ 2705: uvm_test_top [3_2_4] RX_LVL = 0, TX_LVL = 0
+# UVM_INFO ../model/cfs_algn_model.sv(543) @ 2735: uvm_test_top.env.model [DEBUG] RX FIFO push - new level: 1, pushed entry: [2726..] data: {'h26}, size: 1, offset: 0, response: CFS_MD_OKAY, length: 1, prev_item_delay: 24
+# UVM_INFO ../agent_md/cfs_md_monitor.sv(88) @ 2735: uvm_test_top.env.md_rx_agent.monitor [ITEM_END] Monitored item: [2726..2735] data: {'h26}, size: 1, offset: 0, response: CFS_MD_OKAY, length: 1, prev_item_delay: 24
+# UVM_INFO ../model/cfs_algn_model.sv(757) @ 2745: uvm_test_top.env.model [RX_FIFO] RX FIFO pop - new level: 0, popped entry: [2726..2735] data: {'h26}, size: 1, offset: 0, response: CFS_MD_OKAY, length: 1, prev_item_delay: 24
+# UVM_INFO ../model/cfs_algn_model.sv(847) @ 2745: uvm_test_top.env.model [DEBUG1] md_offset:         0, md_size:         1##########################################################
+# UVM_INFO ../model/cfs_algn_model.sv(258) @ 2745: uvm_test_top.env.model [RX_FIFO] RX FIFO became empty - reg_block.IRQ.RX_FIFO_EMPTY: 1
+# UVM_INFO ../model/cfs_algn_model.sv(772) @ 2755: uvm_test_top.env.model [TX_FIFO] TX FIFO push - new level: 1, pushed entry: [1986..2735] data: {'h5c, 'hb0, 'hac, 'h26}, size: 4, offset: 0, response: CFS_MD_OKAY, length: 0, prev_item_delay: 0
+# UVM_WARNING verilog_src/uvm-1.1d/src/reg/uvm_reg_field.svh(1714) @ 2810: reporter [RegModel] Individual field access not available for field 'reg_block.STATUS.RX_LVL'. Accessing complete register instead.
+# UVM_INFO verilog_src/uvm-1.1d/src/reg/uvm_reg_predictor.svh(223) @ 2885: uvm_test_top.env.predictor [REG_PREDICT] Observed READ transaction to register reg_block.STATUS: value='h10000
+# UVM_WARNING verilog_src/uvm-1.1d/src/reg/uvm_reg_field.svh(1714) @ 2925: reporter [RegModel] Individual field access not available for field 'reg_block.STATUS.TX_LVL'. Accessing complete register instead.
+# UVM_INFO verilog_src/uvm-1.1d/src/reg/uvm_reg_predictor.svh(223) @ 2965: uvm_test_top.env.predictor [REG_PREDICT] Observed READ transaction to register reg_block.STATUS: value='h10000
+# UVM_INFO ../test/md_tests/cfs_algn_md_tests_3_2_4.sv(72) @ 3005: uvm_test_top [3_2_4] RX_LVL = 0, TX_LVL = 0
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 3205: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# 
+# --- UVM Report Summary ---
+# 
+# Quit count :     0 of     1
+# ** Report counts by severity
+# UVM_INFO :   74
+# UVM_WARNING :   16
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [3_2_4]     9
+# [DEBUG]     8
+# [DEBUG1]     2
+# [ITEM_END]     9
+# [MAXQUITSET]     1
+# [Questa UVM]     2
+# [REG_PREDICT]    21
+# [RNTST]     1
+# [RX_FIFO]    16
+# [RegModel]    16
+# [TEST_DONE]     1
+# [TX_FIFO]     4
+# ** Note: $finish    : /home/user/Downloads/questasim/linux_x86_64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 3205 ns  Iteration: 54  Instance: /testbench
+# Saving coverage database on exit...
+# End time: 06:04:38 on May 11,2026, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 16
+
+[INFO] Simulation Completed
+
+make[2]: Leaving directory '/home/user/Documents/aligner_repo-main-1/aligner_repo-main/tb/sim'
