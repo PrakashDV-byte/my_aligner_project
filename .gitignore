@@ -1,9 +1,1 @@
-logs/
-ucdb/
-dashboard/
-work/
-transcript
-*.log
-*.wlf
-dump.vcd
-modelsim.ini
+
